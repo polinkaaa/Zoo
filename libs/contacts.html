@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Merriweather:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="../images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="../images/favicon/mstile-150x150.png">
+    <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header id="headerTop">
+        <div class="container">
+            <div class="header">
+                <button class="header_menu" onclick="openModal()"></button>
+                <a href="index.html#headerTop" class="header-logo"></a>
+                <nav class="nav">
+                    <ul class="header-nav">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="museums.html">Музеи</a></li>
+                        <li><a href="index.html#about_muzeum">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:89605300939" class="header-phone nav">8-960-530-09-39</a>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-contacts">
+        <div class="container">
+            <h1 class="muzeum-title cnt">Контакты</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Адрес</td>
+                        <td><a href="https://yandex.ru/maps/-/CCUNvOxYCB" class="address">Ярославская обл., Ярославский район, с.Толбухино, ул. Советская, д. 1, 18 км по трассе М-8.</a></td>
+                    </tr>
+                    <tr>
+                        <td>Как добраться?</td>
+                        <td>Проезд автобусом № 125 КДП «Заволжье» (у «Космоса») до Толбухино:
+                            5:30, 7:50, 13:00, 15:20, 17:55</td>
+                    </tr>
+                    <tr>
+                        <td>Экскурсии для организованных групп</td>
+                        <td>по предварительным заявкам в любой день недели</td>
+                    </tr>
+                    <tr>
+                        <td>Экскурсии для индивидуальных туристов</td>
+                        <td>в воскресенье с 10.00 до 14.00</td>
+                    </tr>
+                    <tr>
+                        <td>Наш офис</td>
+                        <td>150054, г.Ярославль, ул.Чкалова, д.2, оф.710</td>
+                    </tr>
+                    <tr>
+                        <td>Наши телефоны</td>
+                        <td class="tel-table">
+                            <a href="tel:89605300939" class="tel">8-960-530-09-39</a>
+                            <a href="tel:89109727768" class="tel">8-910-972-77-68</a>
+                            <a href="tel:89622118189" class="tel">8-962-211-81-89</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Наша почта</td>
+                        <td><a href="mailto:museum-inform76@yandex.ru" class="mail">museum-inform76@yandex.ru</a></td>
+                    </tr>
+                    <tr>
+                        <td>Стоимость</td>
+                        <td>500 руб./чел.; школьникам и пенсионерам скидки</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1 class="muzeum-title">Схема проезда</h1>
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af4a96863b25d17cc3b258d820c44f8417272f4a760c77bad27848251226074ad&amp;width=100%25&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="index.html#headerTop">
+            <img class="footer-logo" src="../images/Mask group.png" alt="Logo">
+        </a>
+        <div class="phones">
+            <a href="tel:89605300939" class="footer-phone">8-960-530-09-39</a>
+            <a href="tel:89109727768" class="footer-phone">8-910-972-77-68</a>
+        </div>
+        <a href="mailto:museum-inform76@yandex.ru" class="footer-mail">museum-inform76@yandex.ru</a>
+    </footer>
+
+    <div class="modal" id="modal">
+        <ul class="header-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="museums.html">Музеи</a></li>
+            <li><a href="index.html#about_muzeum">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <button class="menu-close" onclick="closeModal()"></button>
+    </div>
+    
+    <script src="../js/main.js"></script>
+</body>
+</html>

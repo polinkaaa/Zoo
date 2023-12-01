@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музей музыкальных инструментов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Merriweather:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/normalize.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../../images/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="../../images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="../../images/favicon/mstile-150x150.png">
+    <link rel="mask-icon" href="../../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header id="headerTop">
+        <div class="container">
+            <div class="header">
+                <button class="header_menu" onclick="openModal()"></button>
+                <a href="../index.html" class="header-logo"></a>
+                <nav class="nav">
+                    <ul class="header-nav">
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../museums.html">Звери</a></li>
+                        <li><a href="../index.html#about_muzeum">О нас</a></li>
+                        <li><a href="../contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:89605300939" class="header-phone nav">8-960-530-09-39</a>
+            </div>
+        </div>
+    </header>
+    <main class="main-contacts">
+        <div class="container">
+            <div class="text-muzeum">
+                <h1 class="muzeum-title cnt">Музей музыкальных инструментов</h1>
+                <p class="jost">Музыка. Она манит, окружает, дарит восторг, приглашает в страну сказки и волшебства. Ее окружают легенды, мифы и истории. Ознакомиться с ними можно в Музее в ходе экскурсии в музее музыкальных инструментов, в коллекции которого различные  музыкальные инструменты, используемые и простыми любителями, и профессиональными музыкантами.</p>
+                <div id="more">
+                    <p class="jost">Яркий пример – гусли, традиционный русский народный музыкальный инструмент, представлены в экспозиции музея. Этот древний инструмент, звучал на Руси с незапамятных времён, упоминается не только в сказках и былинных эпосах, но и в других видах народного творчества, таких как песни и поговорки.</p>
+                    <p class="jost">Немногие знают в селе Толбухино о замечательном гусляре Федоре Кислове. А ведь он и у Шереметевых жил,  в Российском конкурсе  занял 3-е место, был знаком с Есениным. Да и Сергей Есенин, вряд ли, не подпевал Давыдовскому гусляру!  По отзыву С.Н. Кошкарова, земляка и близкого приятеля Ф.А.Кислова, он являлся «одним из последних гусляров, которыми была так богата Древняя Русь…»</p>
+                    <p class="jost">В детстве юный Федор — свирельщик у помещика Глебова-Стрешнева; последний продал его гр. Д. Н. Шереметеву, который помог одарённому юноше уехать в Петербург, где тот занялся торговлей и изучением музыки. Вскоре Кислов стал незаурядным музыкантом; Шереметев перевёл его к себе в дом, подарил дорогие гусли. Благоговейное отношение к музыке Кислов сохранил до конца жизни. «Каждый проповедник, каждый оратор не должен… прикасаться к душе народной, если он не любит музыки»</p>
+                </div>
+                <button onclick="myFunction()" id="myBtn" class="read_more">Читать далее</button>
+            </div>
+            <div class="panorama">
+                <h1 class="muzeum-title pano-title">Виртуальный музей</h1>
+                <a href="../pano/pano2.html" class="pano-link" target="_ blank">
+                    <img src="../../images/a-giraffe.jpg" alt="music" class="pano-main">
+                </a>
+            </div>
+            <div class="about-exhibits">
+                <h1 class="muzeum-title pano-title">Немного об экспонатах</h1>
+                <img src="../../images/m-music-pano.jpg" alt="music-pano" class="exhibits">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="../index.html">
+            <img class="footer-logo" src="../../images/Mask group.png" alt="Logo">
+        </a>
+        <div class="phones">
+            <a href="tel:89605300939" class="footer-phone">8-960-530-09-39</a>
+            <a href="tel:89109727768" class="footer-phone">8-910-972-77-68</a>
+        </div>
+        <a href="mailto:museum-inform76@yandex.ru" class="footer-mail">museum-inform76@yandex.ru</a>
+    </footer>
+
+    <div class="modal" id="modal">
+        <ul class="header-nav">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../museums.html">Музеи</a></li>
+            <li><a class="link-serf" href="../index.html#about_muzeum" onclick="closeModal()">О нас</a></li>
+            <li><a href="../contacts.html">Контакты</a></li>
+        </ul>
+        <button class="menu-close" onclick="closeModal()"></button>
+    </div>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

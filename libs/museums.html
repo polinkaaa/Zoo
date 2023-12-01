@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музеи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Merriweather:wght@700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="../images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="../images/favicon/mstile-150x150.png">
+    <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header id="headerTop">
+        <div class="container">
+            <div class="header">
+                <button class="header_menu" onclick="openModal()"></button>
+                <a href="index.html#headerTop" class="header-logo"></a>
+                <nav class="nav">
+                    <ul class="header-nav">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="museums.html">Музеи</a></li>
+                        <li><a href="index.html#about_muzeum">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:89605300939" class="header-phone nav">8-960-530-09-39</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-contacts">
+        <div class="container">
+            <h1 class="muzeum-title cnt">Посетите 3&nbsp;наших музея не выходя из дома</h1>
+            <div class="owl-carousel slide-two">
+                <div>
+                    <a class="onlain-muzeim-link" href="museum_pages/museum_glass.html">
+                        <img src="../images/m-glass.jpg" alt="Музей хрусталя" class="onlain-muzeim-photo muzeum-photo-grid">
+                        <h4 class="onlain-muzeim-title">Музей хрусталя</h4>
+                    </a>
+                </div>
+                <div>
+                    <a class="onlain-muzeim-link" href="museum_pages/museum_ceramics.html">
+                        <img src="../images/m-ceramics-pano.jpg" alt="Музей керамики" class="onlain-muzeim-photo muzeum-photo-grid">
+                        <h4 class="onlain-muzeim-title">Музей керамики</h4>
+                    </a>
+                </div>
+                <div>
+                    <a class="onlain-muzeim-link" href="museum_pages/museum_music.html">
+                        <img src="../images/m-music.jpg" alt="Музей музыкальных инструментов" class="onlain-muzeim-photo muzeum-photo-grid">
+                        <h4 class="onlain-muzeim-title">Музей музыкальных инструментов</h4>
+                    </a>
+                </div>
+            </div>
+        </div> 
+        <div class="container-other other">
+            <h1 class="muzeum-title">Остальные музеи уже ждут&nbsp;Вас</h1>
+            <div class="muzeum-grid-19">
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusOne').style.visibility = 'visible'">
+                    <img src="../images/m-history.jpg" alt="Музей  истории села Толбухино" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  истории села Толбухино</h4>
+                </button>
+                <div class="main__about main__about_1" id="MusOne">
+                    <div>
+                        <h3 class="main__title">Музей  истории села Толбухино</h3>
+                        <p class="main__description">В ходе экскурсий по музею истории села Толбухино, посетители узнают удивительные истории о знаменитой фатьяновской культуре, увидят и потрогают руками подлинные предметы III тысячелетия до н.э., услышат рассказы о крестьянском и купеческом сословии, отхожих промыслах кузнечном и лепном промысле, швейном деле и других ремёслах жителей села Давыдково (ныне село Толбухино). Узнают удивительные легенды о посещении этих мест царём Иваном Грозным и царём Пётром Великим.</p>
+                    </div>
+                    <img src="../images/history.jpg" alt="history" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusOne').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusTwo').style.visibility = 'visible'">
+                   <img src="../images/m-metal.jpg" alt="Музей  художественного металла" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  художественного металла</h4>
+                </button>
+                <div class="main__about main__about_2" id="MusTwo">
+                    <div>
+                        <h3 class="main__title">Музей  художественного металла</h3>
+                        <p class="main__description">Музей художественного металла села Толбухино. В нем изделия Касли, кованые секирные замки времён Ивана Грозного от крепостных и монастырских ворот г.Ярославля, Углича и других городов, старинные церковные ризы, украшенные чеканкой русских мастеровых, французские бронзовые каминные часы. </p>
+                    </div>
+                    <img src="../images/metal.jpg" alt="history" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusTwo').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusThree').style.visibility = 'visible'">
+                    <img src="../images/m-engraving.jpg" alt="Музей  гравюр" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  гравюр</h4>
+                </button>
+                <div class="main__about main__about_3" id="MusThree">
+                    <div>
+                        <h3 class="main__title">Музей  гравюр</h3>
+                        <p class="main__description">
+                            В этом музее находятся уникальные произведения графики европейской печатной и оригинальной западноевропейской графики 18-19 вв.
+                            <br>
+                            <br>
+                            Коллекция представлена произведениями итальянской, нидерландской, фламандской, голландской, немецкой, французской, английской, национальных школ, в т.ч. работы французского гравера и живописца Клода Фердинанда Гайара, итальянского мастера гравюрного искусства Пьетро Беттелини, французского рисовальщика и гравера Луи Мишель Хальбу (1730-1809), работы которого представлены в коллекциях практически всех мировых музеев. Не менее интересна работа Жана Фердинанда Жубера, французского живописца, гравёра, фотографа и изобретателя «Рубенс. Маленькие Иисус и Иоанн с ангелочками».
+                            <br>
+                            <br>
+                            С «Мадонны» Рафаэля делалось больше репродукций, чем с произведений какого-либо другого художника, и все они нам знакомы с юности. Многие из гравюр, созданных с картин великого итальянца, также представлены  на экспозиции музея.
+                            Интерес представляют три произведения из серии гравюр «Часы Рафаэля», выполненной Жаном-Батистом Фоссейе и ещё девятью художниками в 1790-х или начале 1800-х годов (но, по всей видимости, не позднее 1806 года). Список продолжат гравюры братьев Карраччи, ван Дейка, Рембрандта, Фрагонара и других замечательных европейских художников.
+                        </p>
+                    </div>
+                    <img src="../images/engraving.jpg" alt="engraving" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusThree').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusFour').style.visibility = 'visible'">
+                    <img src="../images/m-tea.jpg" alt="Музей русского чаепития" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей русского чаепития</h4>
+                </button>
+                <div class="main__about main__about_4" id="MusFour">
+                    <div>
+                        <h3 class="main__title">Музей русского чаепития</h3>
+                        <p class="main__description">
+                            Центральное место в экспозиции Музея русского чаепития занимают разнообразные по форме и размерам русские самовары. Здесь можно увидеть знаменитые жаровые самовары таких форм, как «яйцо», «ваза», «полушар», «рюмка». Для русского человека самовар не просто водонагревательный прибор, а олицетворение гостеприимства и радушия, задушевного общения, домашнего покоя и уюта.
+                            <br>
+                            <br>
+                            Согласно историческим сведениям, чай в Россию впервые попал в 1638 году – китайские послы вручили несколько ящиков в дар царю Михаилу Романову. Сначала его употребляли как лекарство, но вскоре стали пить и ради удовольствия. В 1679 году был заключён первый договор о поставке чая из Китая. И уже в середине XIX века в Москве можно было найти более 1 000 специализированных магазинов.
+                            <br>
+                            <br>
+                            Для заварки в дворянских семьях использовали фарфоровые и фаянсовые чайники. Чашку не заполняли до краёв, потому что к чаю было принято подавать варенье, сливки и мёд. Самовар же помогал точно узнать момент, когда температура воды становится подходящей для заваривания чая, ведь многие сорта нельзя заваривать крутым кипятком. Первоначальный шум, сменялся самоварным пением, а затем и бурлением. Именно когда самовар начинал петь, надо было заваривать чай. В экспозиции есть красивые чашки и блюдца знаменитых российских фарфоровых заводов.
+                            <br>
+                            <br>
+                            Крестьяне долгое время вместо заморского чая пили традиционный русский Иван-чай, который изготавливали из листьев кипрея узколистного. Основным местом его изготовления было село Копорье (неподалёку от Петербурга). Иван-чай экспортировали во многие страны Европы. Но после революции его производство прекратилось. О чудесных свойствах Иван-чая вспомнили во время Великой Отечественной войны, когда открыли специальную лабораторию, где производили напитки по старинным русским рецептам. Кроме этого, были популярны травяные чаи из липы, зверобоя, листьев ежевики, смородины, мяты, земляники, брусники и лесных ягод. Всё это было под рукой и не требовало лишних растрат.
+                            <br>
+                            <br>
+                            Дополняют экспозицию предметы интерьера и быта конца XIX – начала ХХ веков.
+                            <br>
+                            <br>
+                            После экскурсии по экспозиции музея, сотрудники предлагают продегустировать местный Иван-чай, с пряниками в придачу.
+                      </p>
+                    </div>
+                    <img src="../images/tea.jpg" alt="tea" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusFour').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusFive').style.visibility = 'visible'">
+                    <img src="../images/m-fashion.jpg" alt="Музей  моды" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  моды</h4>
+                </button>
+                <div class="main__about main__about_5" id="MusFive">
+                    <div>
+                        <h3 class="main__title">Музей  моды</h3>
+                        <p class="main__description">Место моды в музее или на улице – вопрос, который, скорее всего, так и останется без ответа. В Музее моды, расположенном в старинном селе Толбухино, вы окунётесь в атмосферу салона модистки. Манекены с нарядами, гравюры из французских модных журналов XIX века, швейные принадлежности и раритетные швейные машины окружают посетителей музея. Экспозиция посвящена истории моды.</p>
+                    </div>
+                    <img src="../images/fashion.jpg" alt="fashion" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusFive').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusSix').style.visibility = 'visible'">
+                    <img src="../images/m-Peter.jpg" alt="Музей  Петра Великого" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  Петра Великого</h4>
+                </button>
+                <div class="main__about main__about_6" id="MusSix">
+                    <div>
+                        <h3 class="main__title">Музей  Петра Великого</h3>
+                        <p class="main__description">
+                            Музей Петра I расположен в древнем селе Толбухино (ранее Давыдково) на старинном почтовом тракте Москва-Архангельск. В конце XVII - начале XVIII века, по сведениям ярославского историка П. А. Критского, «в Давыдкове проездом в Архангельск останавливался Петр Великий, который подарил в Воскресенскую церковь напрестольный крест с частицами мощей; крест этот хранился в церкви, как святыня». А по некоторым сведениям Петр I бывал в Давыдкове не раз. Старики помнили легенду о посещении Давыдкова Петром I. Царь останавливался здесь и ночевал, а на озере охотился на уток. 
+                            <br />
+                            <br />
+                            По сказу стариков, дорога на Архангельск проходила тогда через Давыдково на село Ново и далее. Якобы около села на дороге стоял камень, где специалист из свиты царя высек надпись, что здесь такого-то года и числа государь Всея Руси Петр I останавливался и принимал пищу. Где находится сей камень теперь неизвестно, но близ села Ново рассказывали аналогичный сказ.
+                            <br />
+                            <br />
+                            В экспозиции Музея Петра I представлены - резная мебель из дуба и красного дерева петровских времен, большая коллекция оружия,гравюры Франции, Голландии и Англии.
+                            <br />
+                            <br />
+                            Изобразительное искусство стремилось обозначить отношение к личности Петра 1. Это, прежде всего, образ царя - реформатора, завоевателя, сильного и могущественного, идеального правителя. Во-вторых, это мудрый полководец, смелый воин - победитель, герой Полтавской битвы. И ещё одна форма, самая неожиданная и трогательная - это просто человек, незаурядный, но такой же, как и мы.
+                            <br />
+                            <br />
+                            Сегодня, благодаря трудоёмкой работе деятелей искусства прошлых веков, потомки Петра Алексеевича знакомы с внешностью великого русского императора.Обратимся к гравюре, работы Якоба Хубракена «Портрет императора Петра Первого». Лист выполнен в технике резцовой гравюры на медной доске.
+                            <br />
+                            <br />
+                            Эта гравюра, накануне славной даты в истории государства Российского – 350-летия первого российского императора, занимает центральное место в экспозиции музея.
+                            <br />
+                            <br />
+                            Пётр изображён по пояс в 3/4, в латах и Андреевской ленте. Внизу два клейма – одно с видом морской баталии, другое с планом Санкт-Петербурга.
+                            <br />
+                            <br />
+                            Гравюра выполнена им по портрету Петра I, написанному в Гааге в марте 1717 года Карелом де Моором — голландским художником, одним из лучших мастеров портретной живописи лейденской школы. Пётр I был очень доволен портретом и желал, чтобы с него были сделаны гравюры, гобелены и миниатюры.
+                        </p>
+                    </div>
+                    <img src="../images/Peter.jpg" alt="Peter" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusSix').style.visibility = 'hidden'"></button>
+                </div>
+                <button class="muzeum-grid-19-items" type="button" onclick="document.getElementById('MusSeven').style.visibility = 'visible'">
+                    <img src="../images/m-porcelain.jpg" alt="Музей  фарфора" class="muzeum-photo-grid">
+                    <h4 class="offlain-muzeim-title">Музей  фарфора</h4>
+                </button>
+                <div class="main__about main__about_7" id="MusSeven">
+                    <div>
+                        <h3 class="main__title">Музей  фарфора</h3>
+                        <p class="main__description">
+                            Музей фарфора в селе Толбухино состоит главным образом из столовой посуды, разных стран и эпох, что даёт возможность проследить путь развития производства фарфора.
+                            <br>
+                            <br>
+                            Прежде всего привлекает витрина китайского фарфора, приносящего в окружающий  мир настроение лёгкости, радости и красоты. Получив своё второе рождение в Европе в XVIII веке, фарфор будто специально был создан для стиля рококо. Яркий пример тому - изумительная французская тарелка, с изображением картины Франсуа Буше «Четыре периода. Весна». 
+                            <br>
+                            <br>
+                            Фарфор XVIII–XIX веков – это дорогостоящее искусство для избранных и заветная мечта для многих. Английский,голландский и португальский фарфор на экспозиции Музея - тому подтверждение.
+                            <br>
+                            <br>
+                            Основу собрания данного музея составляют фарфоровые изделия таких российских заводов, как Ленинградский фарфоровый завод, Дмитровский, Дулевский, Гжель, «Первомайский» в Песочном Ярославской области, Конаковский и других предприятий. Безусловно, нашлось место на экспозиции и знаменитому «Кузнецовскому»  фарфору.
+                        </p>
+                    </div>
+                    <img src="../images/porcelain.jpg" alt="porcelain" class="m-photo">
+                    <button type="button" class="close" onclick="document.getElementById('MusSeven').style.visibility = 'hidden'"></button>
+                </div>
+            </div>
+        </div>  
+    </main>
+    <footer class="footer">
+        <a href="index.html#headerTop">
+            <img class="footer-logo" src="../images/Mask group.png" alt="Logo">
+        </a>
+        <div class="phones">
+            <a href="tel:89605300939" class="footer-phone">8-960-530-09-39</a>
+            <a href="tel:89109727768" class="footer-phone">8-910-972-77-68</a>
+        </div>
+        <a href="mailto:museum-inform76@yandex.ru" class="footer-mail">museum-inform76@yandex.ru</a>
+    </footer>
+
+    <div class="modal" id="modal">
+        <ul class="header-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="museums.html">Музеи</a></li>
+            <li><a href="index.html#about_muzeum">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <button class="menu-close" onclick="closeModal()"></button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
